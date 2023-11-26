@@ -10,9 +10,7 @@ public class Hello extends HttpServlet {
 
    public void init() throws ServletException {
       // Do required initialization
-      message = "Hello World
-                  Welcome to the world
-                  Build the War and Docker file and Deploy into Tomcat";
+      message = "Hello World";
    }
 
    public void doGet(HttpServletRequest request, HttpServletResponse response)
