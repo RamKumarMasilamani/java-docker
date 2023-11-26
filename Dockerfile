@@ -1,5 +1,5 @@
 FROM tomcat:8.5
-MAINTAINER ram docker <ramsat619@gmail.com>
+MAINTAINER ram_docker <ramsat619@gmail.com>
 
 # Debugging tools: A few ways to handle debugging tools.
 # Trade off is a slightly more complex volume mount vs keeping the image size down.
